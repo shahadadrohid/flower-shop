@@ -1,0 +1,54 @@
+/* Shared styles  */
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.button-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    padding: 20px 43px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Header related styles */
+.header {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 240px;
+}
+
+.header-container img {
+    margin-top: 50px;
+}
+
+.header-content {
+    max-width: 708px;
+    max-height: 510px;
+    margin-top: 197px;
+}
+
+.header-content-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.header-content-description {
+    color: rgba(39, 39, 39, 0.60);
+    max-width: 643px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 32px 0px;
+}
