@@ -57,6 +57,10 @@ body {
     gap: 24px;
 }
 
+.span-primary {
+    color: #E55473;
+}
+
 /* ------------------- Header related styles ------------------- */
 
 .header-container {
@@ -161,10 +165,6 @@ body {
     font-weight: 800;
 }
 
-.hot-deals-off {
-    color: #E55473;
-}
-
 .hot-deals-container img {
     margin: 100px 0;
 }
@@ -179,14 +179,25 @@ body {
 .latest-deals {
     padding: 120px 200px;
 }
-.subscribe-content{
+
+.subscribe-content {
     text-align: center;
     width: auto;
 }
+
 .subscribe-content input[type="email"] {
     width: 60%;
     padding: 25px;
     border-radius: 8px;
     border: 0;
+    font-size: 15px;
+    font-weight: 500;
     margin-right: 15px;
+}
+
+/* Footer related styles */
+
+.footer-content{
+    background: #111010;
+    padding: 130px 0;
 }
