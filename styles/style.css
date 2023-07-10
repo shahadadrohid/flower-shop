@@ -142,6 +142,7 @@ body {
     font-weight: 600;
 }
 
+
 /* Hot deals and discount related styles */
 .hot-deals-parent-container {
     margin-top: 130px;
@@ -197,7 +198,7 @@ body {
 
 /* Footer related styles */
 
-.footer-content{
+.footer-content {
     background: #111010;
     padding: 130px 0;
 }
