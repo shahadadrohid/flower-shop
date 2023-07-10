@@ -30,7 +30,30 @@ body {
     margin: 25px auto;
 }
 
-/* Header related styles */
+.description-alignment {
+    text-align: center;
+}
+
+.title-primary {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    margin-top: 150px;
+}
+
+.flowers-container-primary {
+    margin: 50px 240px 0;
+}
+
+.flowers-primary {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+/* ------------------- Header related styles ------------------- */
 
 .header-container {
     display: flex;
@@ -60,33 +83,11 @@ body {
 
 /* Featured flower styles */
 
-.featured-flowers-container {
-    margin-top: 180px;
-}
+/* .featured-flowers-container {
+    margin-top: 150px;
+} */
 
-.featured-flower-title {
-    color: #272727;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 25px;
-}
-
-.featured-flowers-container p {
-    text-align: center;
-}
-
-.flowers-container {
-    margin: 48px 240px 0;
-}
-
-.flowers-with-background {
-    display: flex;
-    justify-content: space-around;
-    gap: 24px;
-}
-
-.flowers-with-background h5 {
+.flowers-container-primary h5 {
     text-align: center;
     margin-top: 30px;
     color: #272727;
@@ -159,6 +160,7 @@ body {
 .hot-deals-off {
     color: #E55473;
 }
+
 .hot-deals-container img {
     margin: 100px 0;
 }
