@@ -46,9 +46,35 @@ body {
 
 .header-content-description {
     color: rgba(39, 39, 39, 0.60);
-    max-width: 643px;
+    max-width: 620px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 32px 0px;
+}
+
+/* Main related styles */
+
+
+/* Featured flower styles */
+.featured-flowers-container {
+    margin-top: 180px;
+}
+
+.featured-flower-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.featured-flower-description {
+    color: rgba(39, 39, 39, 0.60);
+    max-width: 580px;
+    text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin: 32px 0px;
+    margin: 0px 660px;
 }
