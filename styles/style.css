@@ -84,8 +84,19 @@ body {
     border: 2px solid black;
 }
 
-.flowers-with-background img {
-    margin-left: 8px;
+.flowers-with-background {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.flowers-with-background h5 {
+    text-align: center;
+    margin-top: 30px;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
 }
 
 #flower-one {
