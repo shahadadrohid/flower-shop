@@ -40,7 +40,11 @@ body {
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 25px;
-    margin-top: 150px;
+    /* margin-top: 150px; */
+}
+
+.align-primary {
+    margin-bottom: 140px;
 }
 
 .flowers-container-primary {
@@ -163,4 +167,26 @@ body {
 
 .hot-deals-container img {
     margin: 100px 0;
+}
+
+/* Latest deals related styles */
+
+.latest-deals-container {
+    background-image: url('../Flower Asset/Rectangle 9.png');
+    margin: 0 230px;
+}
+
+.latest-deals {
+    padding: 120px 200px;
+}
+.subscribe-content{
+    text-align: center;
+    width: auto;
+}
+.subscribe-content input[type="email"] {
+    width: 60%;
+    padding: 25px;
+    border-radius: 8px;
+    border: 0;
+    margin-right: 15px;
 }
